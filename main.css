@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('./carb.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#raceStandingsSearch{
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+}
+
+#year{
+    margin-right: 2rem;
+}
+
+#round{
+    margin-right: 2rem;
+}
+
+.not-nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.standings-table{
+    display: flex;
+    
+    margin-top: 17rem;
+    border: 2px solid black;
+    width: 80rem;
+    height: 24rem;
+    background-color: gray;
+    color: beige;
+}
+
+.column-titles{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    height: 3rem;
+    border-bottom: 1px solid black;
+    
+}
+
+.standing{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    height: 3rem;
+    font-size: 23px;
+    
+}
+
+#point{
+    text-align: center;
+}
+
+#names{
+    color: blue;
+}
+
+
